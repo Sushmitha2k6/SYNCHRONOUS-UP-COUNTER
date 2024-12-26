@@ -1,4 +1,8 @@
-### SYNCHRONOUS-UP-COUNTER
+EXP11 SYNCHRONOUS-UP-COUNTER
+
+NAME:SUSHMITHA S
+
+REF NO:24008099
 
 **AIM:**
 
@@ -8,9 +12,9 @@ To implement 4 bit synchronous up counter and validate functionality.
 
 Quartus prime
 
-**THEORY**
+**THEORY:**
 
-**4 bit synchronous UP Counter**
+**4 BIT SYNCHRONOUS UP COUNTER:**
 
 If we enable each J-K flip-flop to toggle based on whether or not all preceding flip-flop outputs (Q) are “high,” we can obtain the same counting sequence as the asynchronous circuit without the ripple effect, since each flip-flop in this circuit will be clocked at exactly the same time:
 
@@ -26,21 +30,43 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
-**Procedure**
+**PROCEDURE:**
 
-/* write all the steps invloved */
 
-**PROGRAM**
+1. Type the program in Quartus software.
+ 2. Compile and run the program.
+ 3. Generate the RTL schematic and save the logic diagram.
+ 4. Create nodes for inputs and outputs to generate the timing diagram.
+ 5. For different input combinations generate the timing diagram
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
-*/
 
-**RTL LOGIC UP COUNTER**
+**PROGRAM:**
 
-**TIMING DIAGRAM FOR IP COUNTER**
+![11](https://github.com/user-attachments/assets/981586a9-96f9-488b-b26c-cbb9aa68b951)
 
-**TRUTH TABLE**
 
-**RESULTS**
+**RTL LOGIC UP COUNTER:**
+
+
+![Screenshot 2024-12-26 154523](https://github.com/user-attachments/assets/d2f73d55-25ea-4b4b-81f8-25e803a9b930)
+
+
+
+**TIMING DIAGRAM FOR IP COUNTER:**
+
+
+![Screenshot 2024-12-26 154539](https://github.com/user-attachments/assets/9b9370d7-c5d9-4816-bc9a-d8f48d9117f7)
+
+
+
+
+**TRUTH TABLE:**
+
+
+![Screenshot 2024-12-26 154833](https://github.com/user-attachments/assets/19a0df2b-8a50-4562-9f4b-dbe2cf06e251)
+
+**RESULT:**
+
+Thus,To implement 4 bit synchronous up counter and validate 
+functionality is verified.
